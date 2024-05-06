@@ -2,8 +2,8 @@
 
 ## Do Task 1 manually
 
-### Run the below commands in cloud shell
-## until task 3
+## Run the below commands in cloud shell
+# until task 3
 ```
 export ZONE=$(gcloud compute instances list --filter="name=(generative-ai-jupyterlab)" --format="value(zone)")
 export REGION=${ZONE::-2}
